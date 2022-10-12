@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 15, 2022 at 09:46 PM
+-- Generation Time: Oct 12, 2022 at 03:30 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -32,13 +32,6 @@ CREATE TABLE `admin` (
   `email` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `admin`
---
-
-INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'kevinkarish001@gmail.com', '0000');
 
 -- --------------------------------------------------------
 
@@ -121,14 +114,6 @@ CREATE TABLE `student` (
   `email` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `student`
---
-
-INSERT INTO `student` (`student_id`, `email`, `password`) VALUES
-(1, 'kevinkarish983@gmail.com', '0000'),
-(2, 'kevinkarish001@gmail.com', '0000');
 
 --
 -- Indexes for dumped tables
